@@ -3,11 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>Request JSON Test</title>
+    <style>
+    html, body {
+      height: 100%;
+    }
+    body {
+      background-image: url('logo.jpg');
+      background-size: contain;
+      margin: 0;
+      background-repeat: no-repeat;
+      background-color: #fbee00;
+      background-position: center;
+    }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+      $.get('challenge1input.json', function(data) {
+        console.dir(data);
+      });
+    </script>
   </head>
   <body>
     <a href="#" id="get-data">Get JSON data</a>
     <div id="show-data"></div>
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <!--<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/scripts.js"></script>-->
   </body>
 </html>
