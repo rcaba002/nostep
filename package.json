@@ -1,0 +1,23 @@
+{
+  "name": "nostep",
+  "version": "1.0.0",
+  "description": "hackathon",
+  "main": "app.js",
+  "dependencies": {
+    "jsonfile": "^2.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustinSchuyler/nostep.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustinSchuyler/nostep/issues"
+  },
+  "homepage": "https://github.com/JustinSchuyler/nostep#readme"
+}
