@@ -2,9 +2,9 @@ $(document).ready(function () {
   $('#get-data').click(function () {
     var showData = $('#show-data');
 
-    $.getJSON('challenge1input.json', function (data) {
+    $.get('challenge1input.json', function (data) {
       console.log(data);
-
+return;
       var items = data.items.map(function (item) {
         return item.key + ': ' + item.value;
       });
